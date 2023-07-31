@@ -32,10 +32,10 @@ header {
 
 .menuItem a {
   text-decoration: none;
+  color: #5e3607;
 }
 
 .topContent img {
-  /* position: absolute; */
   margin-top: 50px;
   width: 100%;
 }
@@ -57,4 +57,34 @@ header {
   outline: none;
   border: 1px solid;
   margin-left: 6rem;
+  cursor: pointer;
+}
+
+.midContent {
+  margin-top: 8rem;
+  margin-left: 20px;
+  /* position: relative; */
+  width: 22rem;
+  font-size: 10pt;
+  color: #5e3607;
+} 
+
+.midContentBtn {
+  background-color: #5e3607;
+  color: #e6d4a3;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid;
+  margin-top: 8px;
+  margin-left: 10rem;
+  cursor: pointer;
+}
+
+.ourStore {
+  margin-top: 8rem;
+  margin-left: 15rem;
+  width: 200px;
+  font-size: 10pt;
+  color: #5e3607;
 }
