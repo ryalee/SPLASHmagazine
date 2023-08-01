@@ -13,16 +13,18 @@ header {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin: 0;
 }
 
 .logo {
-  margin-left: -10px;  
-  width: 100%;
+  margin-left: 40px;  
+  width: 30rem;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
+  margin-left: 20px;
 }
 
 .menuItem {
@@ -66,7 +68,7 @@ header {
 }
 
 .midContentText {
-  margin-top: -10rem;
+  margin-top: -14rem;
   margin-left: 20px;
   width: 14rem;
   font-size: 10pt;
@@ -92,21 +94,48 @@ header {
   margin-top: -220px;
   margin-left: -30px;
 }
-/* 
+
 .ourPartners {
   width: 230px;
   margin-top: 120px;
   margin-left: -30px;
+  font-size: 10pt;
 }
 
 .ourPartners img {
   margin-top: 100px;
-  margin-left: -176px;
+  margin-left: 63px;
 }
 
 .ourPartnersText {
   color: #5e3607;
   width: 180px;
   margin-top: -220px;
-  margin-left: -280px;
-} */
+  margin-left: -80px;
+}
+
+.workWithUs img {
+  width: 240px;
+  margin-top: 160px;
+  margin-left: -9px;
+}
+
+.workWithUsText {
+  color: #5e3607;
+  font-size: 10pt;
+  width: 220px;
+  margin-top: -250px;
+  margin-left: 220px;
+}
+
+footer {
+  background-color: #361f04;
+  position: relative;
+  top: 190px;
+  bottom: -180px;
+  color: #ad8c66;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
