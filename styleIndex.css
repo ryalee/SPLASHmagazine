@@ -104,19 +104,19 @@ header {
 
 .ourPartners img {
   margin-top: 100px;
-  margin-left: 30px;
+  margin-left: 66px;
 }
 
 .ourPartnersText {
   color: #5e3607;
   width: 180px;
   margin-top: -220px;
-  margin-left: -80px;
+  margin-left: -60px;
 }
 
 .workWithUs img {
   width: 240px;
-  margin-top: 160px;
+  margin-top: 240px;
   margin-left: -9px;
 }
 
@@ -129,7 +129,7 @@ header {
 }
 
 footer {
-  background-color: #361f04;
+  background-color: #2c1a06;
   position: relative;
   top: 200px;
   bottom: -180px;
