@@ -17,14 +17,14 @@ header {
 }
 
 .logo {
-  margin-left: 40px;  
+  margin-left: 32px;  
   width: 30rem;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 8px;
 }
 
 .menuItem {
@@ -123,9 +123,9 @@ header {
 .workWithUsText {
   color: #5e3607;
   font-size: 10pt;
-  width: 220px;
+  width: 180px;
   margin-top: -250px;
-  margin-left: 170px;
+  margin-left: 220px;
 }
 
 footer {
