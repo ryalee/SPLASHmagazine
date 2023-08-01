@@ -55,30 +55,22 @@ header {
   padding: 8px;
   border-radius: 8px;
   outline: none;
-  border: 1px solid;
+  border: 1px solid #000;
   margin-left: 6rem;
   cursor: pointer;
 }
 
-.midContent {
-  margin-top: 8rem;
+.midContent img {
+  margin-top: 10rem;
+  width: 100%;
+}
+
+.midContentText {
+  margin-top: -10rem;
   margin-left: 20px;
-  /* position: relative; */
-  width: 22rem;
+  width: 14rem;
   font-size: 10pt;
   color: #5e3607;
-} 
-
-.midContentBtn {
-  background-color: #5e3607;
-  color: #e6d4a3;
-  padding: 8px;
-  border-radius: 8px;
-  outline: none;
-  border: 1px solid;
-  margin-top: 8px;
-  margin-left: 10rem;
-  cursor: pointer;
 }
 
 .ourStore {
@@ -87,4 +79,15 @@ header {
   width: 200px;
   font-size: 10pt;
   color: #5e3607;
+}
+
+.ourStore img {
+  margin-top: 12px;
+  margin-left: -15rem;
+  width: 100%;
+}
+
+.ourStoreText {
+  margin-top: -80px;
+  margin-left: 30px;
 }
