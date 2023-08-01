@@ -125,13 +125,13 @@ header {
   font-size: 10pt;
   width: 180px;
   margin-top: -250px;
-  margin-left: 220px;
+  margin-left: 210px;
 }
 
 footer {
   background-color: #361f04;
   position: relative;
-  top: 190px;
+  top: 200px;
   bottom: -180px;
   color: #ad8c66;
   width: 100%;
