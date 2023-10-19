@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  background-color: #fff;
 }
 
 header {
@@ -17,19 +18,20 @@ header {
 }
 
 .logo {
-  margin-left: 32px;  
-  width: 30rem;
+  margin-left: 80px;  
+  width: 20rem;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
-  margin-left: 8px;
+  margin-left: -8px;
 }
 
 .menuItem {
   list-style: none;
   margin-left: 40px;
+  font-size: 10pt;
 }
 
 .menuItem a {
@@ -63,7 +65,7 @@ header {
 }
 
 .midContent img {
-  margin-top: 10rem;
+  margin-top: 12rem;
   width: 100%;
 }
 
@@ -84,20 +86,20 @@ header {
 }
 
 .ourStore img {
-  margin-top: 12px;
+  margin-top: 5rem;
   margin-left: -15rem;
   width: 100%;
 }
 
 .ourStoreText {
   width: 180px;
-  margin-top: -204px;
+  margin-top: -210px;
   margin-left: -30px;
 }
 
 .ourPartners {
   width: 230px;
-  margin-top: 120px;
+  margin-top: 160px;
   margin-left: -30px;
   font-size: 10pt;
 }
@@ -117,7 +119,7 @@ header {
 
 .workWithUs img {
   width: 240px;
-  margin-top: 240px;
+  margin-top: 260px;
   margin-left: -9px;
 }
 
@@ -125,18 +127,21 @@ header {
   color: #5e3607;
   font-size: 10pt;
   width: 180px;
-  margin-top: -220px;
+  margin-top: -250px;
   margin-left: 210px;
 }
 
 footer {
   background-color: #2c1a06;
   position: relative;
-  top: 200px;
-  bottom: -180px;
+  top: 240px;
   color: #ad8c66;
   width: 100%;
-  height: 100px;
   text-align: center;
   line-height: 100px;
 }
+
+footer a {
+  color: #dab993;
+}
+
